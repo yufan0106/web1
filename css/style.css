@@ -1,0 +1,79 @@
+body {
+    background-color: antiquewhite;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+}
+
+h1 {
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-inline-start: 0%;
+}
+
+nav ul a:link,
+nav ul a:visited,
+nav ul a:active {
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul a:hover {
+    color: antiquewhite;
+    text-decoration: underline;
+    background-color: darkgoldenrod;
+}
+
+div {
+    display: flex;
+}
+
+article {
+    width: 65%;
+}
+
+h3 {
+    border-left: solid 12px darkgoldenrod;
+}
+
+p {
+    text-align: justify;
+    margin-right: 15px;
+    line-height: 30px;
+}
+
+img{
+    width: 450px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+span{
+    color: darkgoldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside {
+    width: 35%;
+}
+
+section ul {
+    line-height: 30px;
+}
+
+footer {
+    background-color: darkgoldenrod;
+}
